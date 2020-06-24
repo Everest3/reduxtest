@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+}
+
+.left-panel {
+  padding: 20px;
+  width: 70%;
+}
+
+.box {
+  background-color: rgb(215, 228, 144);
+  opacity: 0.9;
+  width: 100%;
+  border-bottom: white 1px dotted;
+  padding: 10px 10px;
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.btn {
+  /* background-color: rgb(192, 192, 181); */
+  /* border: none; */
+  margin: 200px;
+  padding: 10px 15px;
+  font-size: 17px;
+}
+
+p,
+h2 {
+  margin: 0;
+}
